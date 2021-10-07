@@ -32,7 +32,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'Networking/Core/**/*'
   
   # s.resource_bundles = {
-  #   'ACocoaPod' => ['ACocoaPod/Assets/*.png']
+  #   'Networking' => ['ACocoaPod/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

@@ -6,6 +6,6 @@ target 'NetworkingDemo' do
   use_frameworks!
 
   # Pods for FlavoursKitDemo
-  pod 'Networking', :path => '../'	
+  		
 
 end

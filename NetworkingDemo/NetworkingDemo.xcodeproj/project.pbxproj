@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		71E04FC0F89585A70A26BA43 /* Pods_NetworkingDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AB5C20D11109366B41E7701 /* Pods_NetworkingDemo.framework */; };
-		A45791752705770F00F55C42 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45791742705770F00F55C42 /* SceneDelegate.swift */; };
 		A457917C2705771000F55C42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A457917B2705771000F55C42 /* Assets.xcassets */; };
 		A457917F2705771000F55C42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A457917D2705771000F55C42 /* LaunchScreen.storyboard */; };
 		A488746D27062041007A3851 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A488746C27062041007A3851 /* AppDelegate.swift */; };
@@ -19,7 +18,6 @@
 		608B73B531C12F5706CD8621 /* Pods-NetworkingDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkingDemo.debug.xcconfig"; path = "Target Support Files/Pods-NetworkingDemo/Pods-NetworkingDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		8AB5C20D11109366B41E7701 /* Pods_NetworkingDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetworkingDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A457916F2705770F00F55C42 /* NetworkingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A45791742705770F00F55C42 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A457917B2705771000F55C42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A457917E2705771000F55C42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A45791802705771000F55C42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -73,7 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				A488746C27062041007A3851 /* AppDelegate.swift */,
-				A45791742705770F00F55C42 /* SceneDelegate.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -235,7 +232,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A488746D27062041007A3851 /* AppDelegate.swift in Sources */,
-				A45791752705770F00F55C42 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,7 +300,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -359,7 +355,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
